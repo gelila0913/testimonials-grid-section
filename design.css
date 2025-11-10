@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(236, 236, 236);
+    justify-content: center;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 150px 100px 150px 150px;
+    grid-template-rows: 150px 150px 100px 100px;
+    grid-template-areas: 
+    "box1 box1 box2 box3"
+    "box4 box5 box5 box3 ";
+    gap:20px;
+justify-content: center;
+margin-top:100px;}
+.gri1{
+    background-color: rgb(134, 91, 202);
+    border-radius: 5px;
+    box-shadow:2px 1px 20px grey;
+
+}
+.gri2{
+    background-color: rgb(111, 116, 129);
+    border-radius: 5px;
+    box-shadow:2px 1px 20px grey;
+
+}
+.gri3{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:2px 30px 30px rgb(99, 97, 97);
+
+}
+.gri4{
+    background-color: white;
+    border-radius: 5px;
+        box-shadow:2px 30px 30px rgb(139, 137, 137);
+
+}
+.gri5{
+    background-color: rgb(20, 24, 63);
+    border-radius: 5px;
+    box-shadow:1px 20px 43px rgb(139, 137, 137);
+
+
+}
