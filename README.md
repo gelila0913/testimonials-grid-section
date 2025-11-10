@@ -33,4 +33,4 @@ The layout adjusts based on screen width:
 ## 🔧 How to Run Locally  
 1. Clone this repository to your local machine:  
    ```bash
-   git clone <your‑repo‑url>
+   git clone https://github.com/gelila0913/testimonials-grid-section/edit/main/README.md
